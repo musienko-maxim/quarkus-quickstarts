@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.redhat.io/devspaces/udi-rhel8:3.7 
+      image: quay.io/mmusiien/udi-rhel8:posaction
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
