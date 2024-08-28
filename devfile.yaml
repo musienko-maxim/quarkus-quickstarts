@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/mmusiien/udi-rhel8:posaction
+      image: quay.io/mmusiien/udi-rhel8:latest
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
